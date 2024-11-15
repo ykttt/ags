@@ -12,7 +12,7 @@
 , gjs
 , wrapGAppsHook
 , upower
-, gnome
+, pkgs
 , gtk-layer-shell
 , glib-networking
 , networkmanager
@@ -81,7 +81,7 @@ stdenv.mkDerivation rec {
     gtk3
     libpulseaudio
     upower
-    gnome.gnome-bluetooth
+    pkgs.gnome-bluetooth
     gtk-layer-shell
     glib-networking
     networkmanager
